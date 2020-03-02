@@ -380,6 +380,6 @@ NAN_MODULE_INIT(Init) {
   NAN_EXPORT(target, targetSize);
 }
 
-NAN_MODULE_WORKER_ENABLED(binding, Init)
+NODE_MODULE(binding, Init)
 
 // S.D.G.
